@@ -1,0 +1,8 @@
+{
+    "verbose": true,
+    "ignore": ["./userend"],
+    "excecMap":{
+        "rb": "ruby",
+        "pde": "processing --sketch={{pwd}} --run"
+    }
+}

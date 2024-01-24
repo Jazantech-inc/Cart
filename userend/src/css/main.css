@@ -1,0 +1,52 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+body {
+    font-family: "DIN Alternate", sans-serif;
+    font-size: 15px;
+}
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px
+}
+input, select, textarea {
+    min-height: 48px !important;
+    border: 1px solid #b9b9b9;
+    width: 100%;
+}
+input:focus, select:focus, textarea:focus {
+    outline: none !important;
+    border: 1px solid crimson !important;
+    box-shadow:  none !important;
+}
+.ant-select-selection {
+    background-color: green;
+  }
+
+button {
+    height: 48px !important;
+    box-shadow: none !important;
+}
+
+table {
+    border: 1px solid #ccc !important ;
+    border-radius: 3px
+}
+
+.red {
+    color: crimson;
+    font-size: 17px;
+}
+.purple {
+    color: purple;
+    font-size: 17px;
+}
+
+.filters {
+    max-width: max-content !important;
+    border:1px solid red;
+}
